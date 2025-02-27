@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Ngô Đức Phôn</title>
+  <link rel="stylesheet" href="phon.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Ngô Đức Phôn</div>
+    <ul class="nav-links">
+      <li><a href="#about">Giới Thiệu</a></li>
+      <li><a href="#skills">Kỹ Năng</a></li>
+      <li><a href="#education">Học Vấn</a></li>
+      <li><a href="#projects">Dự Án</a></li>
+      <li><a href="#contact">Liên Hệ</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="header" id="about">
+      <img src="tải xuống.png" alt="Ảnh Ngô Đức Phôn">
+      <h1>Ngô Đức Phôn</h1>
+      <p>Lập Trình Viên HTML</p>
+    </div>
+
+    <div class="content">
+      <div class="section">
+        <h2>Mục tiêu nghề nghiệp</h2>
+        <p>
+          Tôi mong muốn được làm việc ở môi trường lập trình chuyên nghiệp, phát triển kỹ năng chuyên môn 
+          và học hỏi thêm công nghệ mới.
+        </p>
+      </div>
+
+      <div class="section" id="skills">
+        <h2>Kỹ năng</h2>
+        <div class="skills">
+          <div class="skill" onclick="toggleSkillDetail('html-detail')">
+            <p>Ngôn ngữ HTML</p>
+            <div class="progress">
+              <div class="progress-bar html"></div>
+            </div>
+            <p class="skill-detail" id="html-detail">Kinh nghiệm xây dựng website với HTML5, tối ưu SEO.</p>
+          </div>
+          <div class="skill" onclick="toggleSkillDetail('csharp-detail')">
+            <p>Ngôn ngữ C#</p>
+            <div class="progress">
+              <div class="progress-bar csharp"></div>
+            </div>
+            <p class="skill-detail" id="csharp-detail">Viết ứng dụng Windows Form, backend với ASP.NET.</p>
+          </div>
+          <div class="skill" onclick="toggleSkillDetail('english-detail')">
+            <p>Tiếng Anh giao tiếp</p>
+            <div class="progress">
+              <div class="progress-bar english"></div>
+            </div>
+            <p class="skill-detail" id="english-detail">Giao tiếp cơ bản trong môi trường làm việc quốc tế.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="education">
+        <h2>Trình độ học vấn</h2>
+        <p><strong>Đại học</strong><br>Ngành học: Công nghệ thông tin<br>Xếp loại: Giỏi</p>
+      </div>
+
+      <div class="section" id="projects">
+        <h2>Dự án tham gia</h2>
+        <p>
+          <strong>Website bán xe oto</strong><br>
+          Vai trò: Phát triển chức năng website.<br>
+          Mô tả: Website là nền tảng cung cấp đầy đủ xe oto cho khách hàng.<br>
+          Công nghệ sử dụng: HTML, CSS
+        </p>
+      </div>
+
+      <div class="section" id="contact">
+        <h2>Liên Hệ</h2>
+        <p>📧 Email: Phong06@gmail.com</p>
+        <p>📍 Địa chỉ: Tân Uyên, Bình Dương</p>
+        <p>🔗 <a href="https://www.facebook.com/phon.ngo.948" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="phon.js"></script>
+</body>
+</html>
